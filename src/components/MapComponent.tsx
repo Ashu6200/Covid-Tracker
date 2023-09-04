@@ -52,9 +52,11 @@ const MapComponent = () => {
     () => (isLoading ? countryData.map(createMarker) : data.map(createMarker)),
     [createMarker, data, isLoading]
   );
-  const typeMap: string = 'globe';
+  const typeMap: string | undefined = 'globe';
   return (
     <Map
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
       projection={typeMap}
       mapboxAccessToken='pk.eyJ1IjoiZmFrZXVzZXJnaXRodWIiLCJhIjoiY2pwOGlneGI4MDNnaDN1c2J0eW5zb2ZiNyJ9.mALv0tCpbYUPtzT7YysA2g'
       initialViewState={{
