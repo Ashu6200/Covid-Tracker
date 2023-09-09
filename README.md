@@ -77,3 +77,10 @@ Deploy your app to a hosting service like Vercel, GitHub Pages, or Heroku. Provi
 Test your app thoroughly and make any necessary refinements to improve functionality and user experience.
 
 Please note that implementing each of these steps involves writing a significant amount of code and configuring various libraries and components. I recommend breaking down the project into smaller tasks, working on them incrementally, and referring to the documentation and documentation of the libraries you're using for detailed implementation.
+
+
+### ScreenShot of Web-App
+![Covid](https://github.com/Ashu6200/Covid-Tracker/assets/109691178/c3dedcc3-3b8a-4ce8-9c22-e251e68159d8)
+![Chart](https://github.com/Ashu6200/Covid-Tracker/assets/109691178/5e768b7b-f45c-4276-b845-581fda77b076)
+
+
